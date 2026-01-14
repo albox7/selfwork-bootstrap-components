@@ -129,8 +129,8 @@ section.hero > div > a {
 /*——————————————————————————————————————*/
 
 section.featured {
-	margin-top: 40px;
-	padding: 0 4%;
+	padding: 6% 2% 4% 2%;
+	margin-bottom: 3%;
 }
 
 section.featured h3, section.featured h5 {
@@ -156,19 +156,8 @@ section.featured .card-body {
 /*										*/
 /*——————————————————————————————————————*/
 
-section.carousel {
-	padding: 4.8%;
-}
-
-section.carousel h3 {
-	margin-bottom: 30px;
-	font-weight: 900;
-	margin-left: -1%;
-}
-
-section.carousel h5 {
+section.carousel h3, section.carousel h5 {
 	padding: 0 2% 2% 2%;
-	margin-bottom: 30px;
 	font-weight: 900;
 }
 
@@ -188,7 +177,7 @@ section.carousel .carousel-caption > h5 {
 /*										*/
 /*——————————————————————————————————————*/
 
-section.form-job {
+section.form-job.container-fluid {
 	padding: 6% 6% 8% 6%;
 	background: #F2EAC4;
 }
@@ -240,7 +229,7 @@ form input::placeholder {
 /*——————————————————————————————————————*/
 
 section.faq {
-	padding: 6% 4% 12% 4%;
+	padding: 6% 2% 8% 2%;
 	background-image: url('../img/css-pattern-by-magicpattern.png');
 	background-color: rgba(255,255,255,0.8);
     background-blend-mode: lighten;
@@ -248,14 +237,12 @@ section.faq {
 
 section.faq h3 {
 	margin-bottom: 2.5%;
-	margin-left: 20px;
 	font-weight: 900;
 }
 
 section.faq .accordion {
 	border: 2px solid #F2EAC4;
 	border-radius: 5px;
-	margin: 0 20px;
 }
 
 section.faq .accordion-item {
@@ -297,9 +284,9 @@ section.faq .accordion-button::after {
 /*										*/
 /*——————————————————————————————————————*/
 
-footer.container-fluid {
+footer {
 	border-top: 1px solid #E3E3E3;
-	padding: 3% 4% 3% 4%;
+	padding: 3% 6% 3% 6%;
 }
 
 footer ul.social {
